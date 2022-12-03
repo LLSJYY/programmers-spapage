@@ -1,0 +1,67 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+}
+.gnb {
+  width: 100%;
+  background-color: gray;
+  height: 10%;
+}
+
+.gnb-flex{
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  background-image: linear-gradient(to right,rgb(52, 52, 53),rgb(64, 64, 65));
+}
+.gnb-flex div{
+ color: #ffffff;
+ margin:2rem ;
+}
+
+.nav-title{
+  width: 100%;
+  height: 10%;
+background-color: antiquewhite;}
+
+.card-container {
+  width: 90%;
+    margin: 10px auto;
+    padding: 10px 10px;
+}
+.card-items {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+
+}
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  width: 200px;
+  height: 260px;
+  font-size: 40px;
+  color :#ffffff;
+  border-radius: 25px;
+  margin: 20px 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, .2);
+  
+}
+
+
+.card.item {
+  background-color: #0D0D0D;
+
+}
+
+.card.item.flip {
+  background-color: #F2F2F2;
+  color :3098F2;
+}
